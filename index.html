@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- import JavaScript -->
-  <script defer src="script.js"></script>
+  <!--<script defer src="script.js"></script> -->
 
   <!-- import CSS -->
   <link rel="stylesheet" href="styles.css">
@@ -19,10 +19,15 @@
 
   <!-- form to add new players -->
   <div id="new-player-form"></div>
+  <form id="addPlayer">
+    <input type="text" placeholder="Input player/players" name="q">
+    <button>Submit</button>
+  </form>
 
   <!-- container for all players -->
   <div id="all-players-container"></div>
-
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </body>
 
 </html>
